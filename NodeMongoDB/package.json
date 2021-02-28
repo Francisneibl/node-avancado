@@ -1,0 +1,24 @@
+{
+  "name": "nodemongodb",
+  "version": "1.0.0",
+  "description": "Utilizando Node com Mongoose",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx babel-node src"
+  },
+  "keywords": [
+    "Node.js",
+    "Mongoose"
+  ],
+  "author": "Francisnei Lima",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.6.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5"
+  }
+}
