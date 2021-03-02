@@ -1,0 +1,17 @@
+{
+  "name": "nodejwt",
+  "version": "1.0.0",
+  "description": "Aplicação node.js com JWT para proteção",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "author": "Francisnei Lima",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.18"
+  }
+}
